@@ -18,6 +18,7 @@ class MessagesController < ApplicationController
         }, :except => [:created_at, :updated_at])
     end
 
+    #edit function on front end commented out 
     def edit
         message = Message.find(params[:id])
     end
